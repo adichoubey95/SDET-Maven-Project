@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.failedtestcases.AutomaticallyRunTestSciprt" />
+    </listeners>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="coursename" value="selenium"></parameter>
+    <parameter name="cityname" value="pune"></parameter>
+    <test verbose="2" preserve-order="false"  thread-count="2" name="C:/Users/admin/IdeaProjects/MavenProject">
+        <classes>
+
+            <class name="testng.failedtestcases.FailedTestCasesExample"/>
+
+
+        </classes>
+    </test>
+</suite>
