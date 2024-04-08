@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class PriortyExample {
     @Test(priority =1)
     public void TestCaseA(){
-        System.out.println("TestCaseA");
+        System.out.println("TestCaseA1");
     }
     @Test(priority =2)
     public void TestCaseX(){
