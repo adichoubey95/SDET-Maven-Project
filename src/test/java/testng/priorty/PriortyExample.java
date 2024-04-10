@@ -11,7 +11,7 @@ public class PriortyExample {
     public void TestCaseX(){
 
         System.out.println("TestCaseX1");
-        System.out.println("TestCaseXYZ");
+        System.out.println("TestCaseXY");
     }
     @Test
     public void TestCaseF(){
