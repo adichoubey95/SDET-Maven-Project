@@ -9,7 +9,7 @@ public class PriortyExample {
     }
     @Test(priority =2)
     public void TestCaseX(){
-        System.out.println("TestCaseX");
+        System.out.println("TestCaseX1");
     }
     @Test
     public void TestCaseF(){
